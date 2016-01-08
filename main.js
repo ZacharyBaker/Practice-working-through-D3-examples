@@ -1,52 +1,59 @@
 //d3 ish
 
-var w = 600;
-var h = 250;
-var padding = 25;
+// var w = 600;
+// var h = 250;
 
-var dataset = [5, 10, 13, 19, 21, 25, 22, 18, 15, 13,11, 12, 15, 20, 18, 17, 16, 18, 23, 25];
+// var projection = d3.geo.mercator()
+// 						.center([ 0, 40 ])
+// 						.translate([ w/2, h/2 ])
+// 						.scale([ w/7 ]);
+						
+// var path = d3.geo.path()
+// 				.projection(projection);
+				
+// var svg = d3.select("body")
+// 			.append("svg")
+// 			.attr("width", w)
+// 			.attr("height", h);
+			
+			
+// d3.json("countries.json", function(json){
+	
+// 	svg.selectAll("path")
+// 		.data(json.features)
+// 		.enter()
+// 		.append("path")
+// 		.attr("d", path);
+// })
 
-var xScale = d3.scale.ordinal()
-				.domain(d3.range(dataset.length))
-				.rangeRoundBands([ padding, w - padding ], .05);
-				
-var yScale = d3.scale.linear()
-				.domain([ 0, d3.max(dataset) ])
-				.rangeRound([ h - padding, padding]);
-				
-				
-var yAxis = d3.svg.axis()
-				.scale(yScale)
-				.orient("left")
-				.ticks(5);
-				
-var svg = d3.select("body")
-			.append("svg")
-			.attr("width", w)
-			.attr("height", h);
+//Width and height
+		var w = 500;
+		var h = 300;
+
+		//Define map projection
+		var projection = d3.geo.mercator()
+							   .center([ 0, 40 ])
+							   .translate([ w/2, h/2 ])
+							   .scale([ w/7 ]);
+
+		//Define path generator
+		var path = d3.geo.path()
+						 .projection(projection);
+
+		//Create SVG
+		var svg = d3.select("body")
+					.append("svg")
+					.attr("width", w)
+					.attr("height", h);
+
+		//Load in GeoJSON data
+		d3.json("./countries.json", function(json) {
 			
-svg.selectAll("rect")
-			.data(dataset)
-			.enter()
-			.append("rect")
-			.classed("highlight", function(d){
-				if (d > 15){
-					return true;
-				}
-				return false;
-			})
-			.attr("x", function(d, i){
-				return xScale(i);
-			})
-			.attr("y", function(d){
-				return yScale(d);
-			})
-			.attr("width", xScale.rangeBand())
-			.attr("height", function(d){
-				return h - padding - yScale(d);
-			});
-			
-svg.append("g")
-		.attr("class", "axis")
-		.attr("transform", "translate(" + padding + ",0)")
-		.call(yAxis);
+			//Bind data and create one path per GeoJSON feature
+			svg.selectAll("path")
+			   .data(json.features)
+			   .enter()
+			   .append("path")
+			   .attr("d", path);
+	
+		});
