@@ -55,6 +55,15 @@ d3.csv("sp500.csv", type, function(error, data) {
   x2.domain(x.domain());
   y2.domain(y.domain());
 
+
+// d3.json("test.json", function(error, data) {
+//   x.domain(d3.extent(data.map(function(d) { return d.date; })));
+//   y.domain([0, d3.max(data.map(function(d) { return d.price; }))]);
+//   x2.domain(x.domain());
+//   y2.domain(y.domain());
+
+
+
   focus.append("path")
       .datum(data)
       .attr("class", "area")

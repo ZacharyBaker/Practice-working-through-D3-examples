@@ -1,0 +1,494 @@
+[
+  {
+    "date":"Jan 2000",
+    "price":"50"
+  },
+  {
+    "date":"Feb 2000",
+    "price":"45"
+  },
+  {
+    "date":"Mar 2000",
+    "price":"58"
+  },
+  {
+    "date":"Apr 2000",
+    "price":"43"
+  },
+  {
+    "date":"May 2000",
+    "price":"60"
+  },
+  {
+    "date":"Jun 2000",
+    "price":"60"
+  },
+  {
+    "date":"Jul 2000",
+    "price":"83"
+  },
+  {
+    "date":"Aug 2000",
+    "price":"68"
+  },
+  {
+    "date":"Sep 2000",
+    "price":"51"
+  },
+  {
+    "date":"Oct 2000",
+    "price":"40"
+  },
+  {
+    "date":"Nov 2000",
+    "price":"95"
+  },
+  {
+    "date":"Dec 2000",
+    "price":"28"
+  },
+  {
+    "date":"Jan 2001",
+    "price":"01"
+  },
+  {
+    "date":"Feb 2001",
+    "price":"94"
+  },
+  {
+    "date":"Mar 2001",
+    "price":"33"
+  },
+  {
+    "date":"Apr 2001",
+    "price":"46"
+  },
+  {
+    "date":"May 2001",
+    "price":"82"
+  },
+  {
+    "date":"Jun 2001",
+    "price":"38"
+  },
+  {
+    "date":"Jul 2001",
+    "price":"23"
+  },
+  {
+    "date":"Aug 2001",
+    "price":"58"
+  },
+  {
+    "date":"Sep 2001",
+    "price":"94"
+  },
+  {
+    "date":"Oct 2001",
+    "price":"78"
+  },
+  {
+    "date":"Nov 2001",
+    "price":"45"
+  },
+  {
+    "date":"Dec 2001",
+    "price":"08"
+  },
+  {
+    "date":"Jan 2002",
+    "price":"20"
+  },
+  {
+    "date":"Feb 2002",
+    "price":"73"
+  },
+  {
+    "date":"Mar 2002",
+    "price":"39"
+  },
+  {
+    "date":"Apr 2002",
+    "price":"92"
+  },
+  {
+    "date":"May 2002",
+    "price":"14"
+  },
+  {
+    "date":"Jun 2002",
+    "price":"82"
+  },
+  {
+    "date":"Jul 2002",
+    "price":"62"
+  },
+  {
+    "date":"Aug 2002",
+    "price":"07"
+  },
+  {
+    "date":"Sep 2002",
+    "price":"28"
+  },
+  {
+    "date":"Oct 2002",
+    "price":"76"
+  },
+  {
+    "date":"Nov 2002",
+    "price":"31"
+  },
+  {
+    "date":"Dec 2002",
+    "price":"82"
+  },
+  {
+    "date":"Jan 2003",
+    "price":"70"
+  },
+  {
+    "date":"Feb 2003",
+    "price":"15"
+  },
+  {
+    "date":"Mar 2003",
+    "price":"18"
+  },
+  {
+    "date":"Apr 2003",
+    "price":"92"
+  },
+  {
+    "date":"May 2003",
+    "price":"59"
+  },
+  {
+    "date":"Jun 2003",
+    "price":"5"
+  },
+  {
+    "date":"Jul 2003",
+    "price":"31"
+  },
+  {
+    "date":"Aug 2003",
+    "price":"01"
+  },
+  {
+    "date":"Sep 2003",
+    "price":"97"
+  },
+  {
+    "date":"Oct 2003",
+    "price":"71"
+  },
+  {
+    "date":"Nov 2003",
+    "price":"2"
+  },
+  {
+    "date":"Dec 2003",
+    "price":"92"
+  },
+  {
+    "date":"Jan 2004",
+    "price":"13"
+  },
+  {
+    "date":"Feb 2004",
+    "price":"94"
+  },
+  {
+    "date":"Mar 2004",
+    "price":"21"
+  },
+  {
+    "date":"Apr 2004",
+    "price":"3"
+  },
+  {
+    "date":"May 2004",
+    "price":"68"
+  },
+  {
+    "date":"Jun 2004",
+    "price":"84"
+  },
+  {
+    "date":"Jul 2004",
+    "price":"72"
+  },
+  {
+    "date":"Aug 2004",
+    "price":"24"
+  },
+  {
+    "date":"Sep 2004",
+    "price":"58"
+  },
+  {
+    "date":"Oct 2004",
+    "price":"2"
+  },
+  {
+    "date":"Nov 2004",
+    "price":"82"
+  },
+  {
+    "date":"Dec 2004",
+    "price":"92"
+  },
+  {
+    "date":"Jan 2005",
+    "price":"27"
+  },
+  {
+    "date":"Feb 2005",
+    "price":"6"
+  },
+  {
+    "date":"Mar 2005",
+    "price":"59"
+  },
+  {
+    "date":"Apr 2005",
+    "price":"85"
+  },
+  {
+    "date":"May 2005",
+    "price":"5"
+  },
+  {
+    "date":"Jun 2005",
+    "price":"33"
+  },
+  {
+    "date":"Jul 2005",
+    "price":"18"
+  },
+  {
+    "date":"Aug 2005",
+    "price":"33"
+  },
+  {
+    "date":"Sep 2005",
+    "price":"81"
+  },
+  {
+    "date":"Oct 2005",
+    "price":"01"
+  },
+  {
+    "date":"Nov 2005",
+    "price":"48"
+  },
+  {
+    "date":"Dec 2005",
+    "price":"29"
+  },
+  {
+    "date":"Jan 2006",
+    "price":"08"
+  },
+  {
+    "date":"Feb 2006",
+    "price":"66"
+  },
+  {
+    "date":"Mar 2006",
+    "price":"87"
+  },
+  {
+    "date":"Apr 2006",
+    "price":"61"
+  },
+  {
+    "date":"May 2006",
+    "price":"09"
+  },
+  {
+    "date":"Jun 2006",
+    "price":"2"
+  },
+  {
+    "date":"Jul 2006",
+    "price":"66"
+  },
+  {
+    "date":"Aug 2006",
+    "price":"82"
+  },
+  {
+    "date":"Sep 2006",
+    "price":"85"
+  },
+  {
+    "date":"Oct 2006",
+    "price":"94"
+  },
+  {
+    "date":"Nov 2006",
+    "price":"63"
+  },
+  {
+    "date":"Dec 2006",
+    "price":"3"
+  },
+  {
+    "date":"Jan 2007",
+    "price":"24"
+  },
+  {
+    "date":"Feb 2007",
+    "price":"82"
+  },
+  {
+    "date":"Mar 2007",
+    "price":"86"
+  },
+  {
+    "date":"Apr 2007",
+    "price":"37"
+  },
+  {
+    "date":"May 2007",
+    "price":"62"
+  },
+  {
+    "date":"Jun 2007",
+    "price":"35"
+  },
+  {
+    "date":"Jul 2007",
+    "price":"27"
+  },
+  {
+    "date":"Aug 2007",
+    "price":"99"
+  },
+  {
+    "date":"Sep 2007",
+    "price":"75"
+  },
+  {
+    "date":"Oct 2007",
+    "price":"38"
+  },
+  {
+    "date":"Nov 2007",
+    "price":"14"
+  },
+  {
+    "date":"Dec 2007",
+    "price":"36"
+  },
+  {
+    "date":"Jan 2008",
+    "price":"55"
+  },
+  {
+    "date":"Feb 2008",
+    "price":"63"
+  },
+  {
+    "date":"Mar 2008",
+    "price":"7"
+  },
+  {
+    "date":"Apr 2008",
+    "price":"59"
+  },
+  {
+    "date":"May 2008",
+    "price":"38"
+  },
+  {
+    "date":"Jun 2008",
+    "price":"80"
+  },
+  {
+    "date":"Jul 2008",
+    "price":"38"
+  },
+  {
+    "date":"Aug 2008",
+    "price":"83"
+  },
+  {
+    "date":"Sep 2008",
+    "price":"36"
+  },
+  {
+    "date":"Oct 2008",
+    "price":"75"
+  },
+  {
+    "date":"Nov 2008",
+    "price":"24"
+  },
+  {
+    "date":"Dec 2008",
+    "price":"25"
+  },
+  {
+    "date":"Jan 2009",
+    "price":"88"
+  },
+  {
+    "date":"Feb 2009",
+    "price":"09"
+  },
+  {
+    "date":"Mar 2009",
+    "price":"87"
+  },
+  {
+    "date":"Apr 2009",
+    "price":"81"
+  },
+  {
+    "date":"May 2009",
+    "price":"14"
+  },
+  {
+    "date":"Jun 2009",
+    "price":"32"
+  },
+  {
+    "date":"Jul 2009",
+    "price":"48"
+  },
+  {
+    "date":"Aug 2009",
+    "price":"62"
+  },
+  {
+    "date":"Sep 2009",
+    "price":"08"
+  },
+  {
+    "date":"Oct 2009",
+    "price":"19"
+  },
+  {
+    "date":"Nov 2009",
+    "price":"63"
+  },
+  {
+    "date":"Dec 2009",
+    "price":"1"
+  },
+  {
+    "date":"Jan 2010",
+    "price":"87"
+  },
+  {
+    "date":"Feb 2010",
+    "price":"49"
+  },
+  {
+    "date":"Mar 2010",
+    "price":"45"
+  }
+]
