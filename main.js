@@ -1,16 +1,19 @@
 var data = [
   {
-    date: "April 1994",
-    alive:50
+    date: "April 2000",
+    alive:50,
+	married: false
   },
   {
     date: "March 2000",
-    alive:45
+    alive:45,
+	married: false
+  },
+  {
+    date:"Mar 2000",
+    alive:58,
+	married: false
   }
-//   {
-//     date:"Mar 2000",
-//     alive:58
-//   },
 //   {
 //     date:"Apr 2000",
 //     alive:43
@@ -492,6 +495,9 @@ var data = [
 //     alive:45
 //   }
 ];
+data.forEach(function( item ) {
+  item.date = new Date(item.date);
+});
 
 var margin = {top: 10, right: 10, bottom: 100, left: 40},
     margin2 = {top: 430, right: 10, bottom: 20, left: 40},
@@ -544,7 +550,7 @@ var context = svg.append("g")
     .attr("class", "context")
     .attr("transform", "translate(" + margin2.left + "," + margin2.top + ")");
 
-d3.csv("sp500.csv", type, function(error, data) {
+// d3.csv("sp500.csv", type, function(error, data) {
 	console.log("this is data", data);
   x.domain(d3.extent(data.map(function(d) { return d.date; })));
   y.domain([0, d3.max(data.map(function(d) { return d.alive; }))]);
@@ -591,7 +597,7 @@ d3.csv("sp500.csv", type, function(error, data) {
     .selectAll("rect")
       .attr("y", -6)
       .attr("height", height2 + 7);
-});
+// });
 
 function brushed() {
   x.domain(brush.empty() ? x2.domain() : brush.extent());
